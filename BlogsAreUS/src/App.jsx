@@ -7,9 +7,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <DisplayBlogPosts />
-      <Footer />
+      <Routes>
+        <Header />
+        <DisplayBlogPosts />
+        <Footer />
+      </Routes>
     </BrowserRouter>
   );
 }
