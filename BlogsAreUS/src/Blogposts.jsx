@@ -17,4 +17,8 @@ export default function DisplayBlogPosts() {
       })
       .catch((err) => {});
   }, []);
+
+  if (error) {
+    return <div>{error}</div>;
+  }
 }
