@@ -5,7 +5,11 @@ import "./App.css";
 import DisplayBlogPosts from "./blogPosts";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <DisplayBlogPosts />
+    </>
+  );
 }
 
 export default App;
