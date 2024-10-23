@@ -32,7 +32,7 @@ export default function DisplayBlogPosts() {
           </div>
         ))
       ) : (
-        <p>Loading posts...</p> // Show loading message while posts are being fetched
+        <p>Loading posts...</p> // Shows loading message while posts are being fetched
       )}
     </div>
   );
