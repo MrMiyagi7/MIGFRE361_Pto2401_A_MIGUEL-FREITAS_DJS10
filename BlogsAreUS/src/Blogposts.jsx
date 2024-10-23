@@ -21,4 +21,19 @@ export default function DisplayBlogPosts() {
   if (error) {
     return <div>{error}</div>;
   }
+  return (
+    <div>
+      <h1>Blog Posts</h1>
+      {posts.length > 0 ? ( // Ensure posts exist before mapping
+        posts.map((post) => (
+          <div key={post.id}>
+            <h2>{post.title}</h2>
+            <p>{post.body}</p>
+          </div>
+        ))
+      ) : (
+        <p>Loading posts...</p> // Show loading message while posts are being fetched
+      )}
+    </div>
+  );
 }
