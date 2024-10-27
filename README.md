@@ -9,30 +9,26 @@
 - [Installation](#installation)
 - [Pages](#pages)
 
----
-
 ## Installation
 
 To run this project locally, follow these steps:
 
 1. **Clone the repository**:
-   git clone https://github.com/yourusername/blogs-are-us.git
 
    ```
+     git clone https://github.com/MrMiyagi7/MIGFRE361_Pto2401_A_MIGUEL-FREITAS_DJS10.git
 
    ```
 
 2. Navigate into the project directory:
 
 ```
-
 cd blogs-are-us
 ```
 
 3. Install dependencies:
 
 ```
-
 npm install
 ```
 
