@@ -86,14 +86,19 @@ nav {
   margin-top: 6em;
   min-width: 60%;
 }
+.link-text:link,
+.link-text:visited,
+.link-text:focus {
+  color: #fff;
+}
 
 .inactive-link {
   color: #dfafb3;
   text-decoration: none;
 }
-a:link,
-a:visited,
-a:focus {
+.nav-item-container > a:link,
+.nav-item-container > a:visited,
+.nav-item-container > a:focus {
   color: #2b4f43;
 }
 

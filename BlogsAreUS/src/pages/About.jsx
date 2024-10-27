@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function About() {
   return (
@@ -20,7 +21,11 @@ export default function About() {
         Thank you for being part of our journey. We hope our content inspires,
         educates, and entertains you!
       </p>
-      <button class="contact-btn">Contact Us</button>
+      <button className="hero-button">
+        <Link className="link-text" to={"/Contact"}>
+          Contact Us
+        </Link>
+      </button>
     </div>
   );
 }
