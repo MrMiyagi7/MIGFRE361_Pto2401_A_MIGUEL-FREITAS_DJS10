@@ -15,7 +15,9 @@ export default function DisplayBlogPosts() {
       .then((data) => {
         setPosts(data);
       })
-      .catch((err) => {});
+      .catch((err) => {
+        setError(err.message);
+      });
   }, []);
 
   if (error) {
