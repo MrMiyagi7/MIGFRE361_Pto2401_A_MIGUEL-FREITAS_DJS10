@@ -15,10 +15,10 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository**:
 
-   ```
-     git clone https://github.com/MrMiyagi7/MIGFRE361_Pto2401_A_MIGUEL-FREITAS_DJS10.git
+```
+git clone https://github.com/MrMiyagi7/MIGFRE361_Pto2401_A_MIGUEL-FREITAS_DJS10.git
 
-   ```
+```
 
 2. Navigate into the project directory:
 
