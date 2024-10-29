@@ -24,7 +24,7 @@ export default function DisplayBlogPosts() {
     return <div>{error}</div>;
   }
   return (
-    <div>
+    <div className="main-content">
       <h1>Blog Posts</h1>
       {posts.length > 0 ? ( // Ensure posts exist before mapping
         posts.map((post) => (
